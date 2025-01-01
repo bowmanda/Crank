@@ -1,0 +1,16 @@
+<div class="container">
+    <div
+      class="valve"
+      #valve
+      (mousedown)="onMouseDown($event)"
+      (mouseup)="onMouseUp($event)"
+      (mousemove)="onMouseMove($event)"
+    >
+      <img
+        [ngStyle]="{ transform: 'rotate(' + rotation + 'deg)' }"
+        src="assets/valve.png"
+        alt="Valve"
+        class="valve"
+      />
+    </div>
+  </div>

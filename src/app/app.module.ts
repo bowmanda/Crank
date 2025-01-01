@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { ComputingMachineComponent } from './computing-machine/computing-machine.component';
 import { InformationComponent } from './information/information.component';
+import { TestComponent } from './Valve/test.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { InformationComponent } from './information/information.component';
     ScamazonComponent,
     ComputingMachineComponent,
     InformationComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import { InformationComponent } from './information/information.component';
     RouterModule,
     RouterModule.forRoot([ 
       { path: 'home', component: HomeComponent },
-      { path: 'scamazon', component: ScamazonComponent }
+      { path: 'scamazon', component: ScamazonComponent },
+      { path: 'test', component: TestComponent }
     ])
   ],
   providers: [],
