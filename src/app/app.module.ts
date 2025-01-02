@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { ComputingMachineComponent } from './computing-machine/computing-machine.component';
 import { InformationComponent } from './information/information.component';
 import { TestComponent } from './Valve/test.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TestComponent } from './Valve/test.component';
     ScamazonComponent,
     ComputingMachineComponent,
     InformationComponent,
-    TestComponent
+    TestComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

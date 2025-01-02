@@ -1,0 +1,21 @@
+.not-found {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .not-found h1 {
+    font-size: 3rem;
+    color: #ff5722;
+  }
+  
+  .not-found p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .not-found a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
